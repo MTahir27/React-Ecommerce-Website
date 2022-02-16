@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.scss";
+import shopData from "./shopdata";
 
 class ShopPage extends React.Component {
     constructor() {
