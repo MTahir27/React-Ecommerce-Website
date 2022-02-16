@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss";
 import shopData from "./shopdata";
+import CollectionPreview from "../../Components/CollectionPreview";
 
 class ShopPage extends React.Component {
     constructor() {
@@ -8,7 +9,7 @@ class ShopPage extends React.Component {
     }
     render() {
         return (
-            <h1>Shop Page</h1>
+            <CollectionPreview />
         )
     }
 }
