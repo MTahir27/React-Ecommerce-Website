@@ -5,15 +5,15 @@ import { ReactComponent as Logo } from "../../assets/images/logo/logo.svg";
 
 const Navbar = () => {
     return (
-        <header className="header">
+        <nav className="navbar">
             <Link className="logo-container" to="/">
                 <Logo className="logo" />
             </Link>
-            <section className="options">
+            <div className="options">
                 <Link className="option" to="/shop" >Shop</Link>
                 <Link className="option" to="/contact" >Contact</Link>
-            </section>
-        </header>
+            </div>
+        </nav>
     )
 }
 
