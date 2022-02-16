@@ -1,11 +1,11 @@
 import React from "react";
+import Directory from "../../Components/Directory";
 import "./style.scss";
-import MenuItem from "../../Components/MenuItem";
 
 const HomePage = () => {
     return (
         <section className="homepage">
-            <MenuItem />
+            <Directory />
         </section>
     );
 }
