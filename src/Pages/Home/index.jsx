@@ -1,9 +1,12 @@
 import React from "react";
 import "./style.scss";
+import MenuItem from "../../Components/MenuItem";
 
 const HomePage = () => {
     return (
-        <h1>Home Page</h1>
+        <section className="homepage">
+            <MenuItem />
+        </section>
     );
 }
 
