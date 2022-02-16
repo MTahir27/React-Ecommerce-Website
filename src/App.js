@@ -9,12 +9,14 @@ import SigninSignup from "./Pages/Login";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/shop" element={<ShopPage />} />
-        <Route path="/login" element={<SigninSignup />} />
-      </Routes>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/shop" element={<ShopPage />} />
+          <Route path="/login" element={<SigninSignup />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
