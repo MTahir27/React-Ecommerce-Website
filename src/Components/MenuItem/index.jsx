@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.scss";
 
-const MenuItem = () => {
+const MenuItem = ({ ...otherMenuProps }) => {
     return (
         <div className="menu-item">
             <div className="content">
-                <h1 className="title">Hats</h1>
+                <h1 className="title">{titile}</h1>
                 <span className="subtitle">Shop Now</span>
             </div>
         </div>
