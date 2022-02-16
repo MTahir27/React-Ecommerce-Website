@@ -4,7 +4,9 @@ import CollectionItem from "../CollectionItem";
 
 const CollectionPreview = () => {
     return (
-        <CollectionItem />
+        <div className="collection-preview">
+            <CollectionItem />
+        </div>
     )
 }
 
