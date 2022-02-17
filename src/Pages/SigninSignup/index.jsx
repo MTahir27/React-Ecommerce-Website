@@ -1,9 +1,12 @@
 import React from "react";
+import Login from "../../Components/Login";
 import "./style.scss";
 
 const SigninSignup = () => {
     return (
-        <h1>Login Signin Page</h1>
+        <section>
+            <Login />
+        </section>
     )
 }
 
