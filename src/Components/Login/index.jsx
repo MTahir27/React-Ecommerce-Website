@@ -1,4 +1,5 @@
 import React from "react";
+import InputField from "../InputField";
 import "./style.scss";
 
 class Login extends React.Component {
@@ -27,14 +28,8 @@ class Login extends React.Component {
                 <h3>I already have an account</h3>
                 <span>Enter Email & Password to Login Account</span>
                 <form onSubmit={this.handelSubmit}>
-                    <div>
-                        <label htmlFor="email">Email</label>
-                        <input type="email" name="email" value={this.state.email} onChange={this.handleChange} />
-                    </div>
-                    <div>
-                        <label htmlFor="password">Password</label>
-                        <input type="password" name="password" value={this.state.password} onChange={this.handleChange} />
-                    </div>
+                    <InputField type="email" name="email" value={this.state.email} onChange={this.handleChange} label="email" />
+                    <InputField type="password" name="password" value={this.state.password} onChange={this.handleChange} label="password" />
                     <button>Login</button>
                 </form>
             </section>
